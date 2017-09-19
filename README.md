@@ -15,7 +15,7 @@ Replace <host> with your host
 ## Parser
 `curl -X POST -d '{"query": "100 main st buffalo ny"}' <host>:8080/parser`
 
-** Response **
+**Response**
 ```
 [
   {
@@ -40,7 +40,7 @@ Replace <host> with your host
 ## Expand
 `curl -X POST -d '{"query": "100 main st buffalo ny"}' <host>:8080/expand`
 
-** Response **
+**Response**
 ```
 [
   "100 main saint buffalo new york",
